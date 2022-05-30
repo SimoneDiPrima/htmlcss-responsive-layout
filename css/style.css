@@ -101,7 +101,7 @@ ul{
 .storyteller{
     min-height:200px;
     width:80%;
-    margin:0 auto;
+    margin:20px auto;
     border:2 px solid red;
     text-align:center;
 }
