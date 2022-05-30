@@ -151,9 +151,9 @@ ul{
     border:1px solid green;
 }
 .advertise-section{
-    background-color: slateblue;
     width:100%;
-    margin:0 auto;
+    background-color: slateblue;
+    margin:0px auto;
     text-align:center;
     padding:10px;
     line-height:150%;
@@ -163,17 +163,18 @@ ul{
 }
 .footer-finale{
     background-color: #222;
+    padding:20px;
     color:white;
     width:100%;
+    margin:0 auto;
     min-height:200px;
-    padding-top: 20px;
-
 }
 .colo-footer{
     width:60%;
-    margin:20px auto;
-    display:flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    align-content:space-beetween;
+    margin:0 auto;
+    text-align: center;
 }
+.text-footer{
+    margin-bottom:50px;
+}
+
