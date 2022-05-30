@@ -44,7 +44,7 @@ ul{
 }
 #start-item{
     margin:10px 0;
-    min-height:250px;
+    min-height:150px;
     border:1px solid black;
 }
 .start-small-first{
@@ -177,4 +177,3 @@ ul{
 .text-footer{
     margin-bottom:50px;
 }
-

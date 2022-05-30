@@ -1,4 +1,41 @@
-@media screen and (max-width:780px){
-    
-
+@media screen and (min-width:780px){
+    .first-main-row{
+        display:flex;
+        flex-wrap:wrap;
+        margin:10px;
+    }
+    .first-row-item{
+        width:60%;
+        min-height:150px;
+    }
+    .start-small-first{
+        width:30%;
+        min-height:150px;
+    }
+    .testimonial-image{
+        display:flex;
+        align-self:center;
+        width:20%;
+        float:left;
+        margin-right:10px;
+    }
+    #testimonial-title{
+        width:100%;
+    }
+    .benefit-section-card{
+        display:flex;
+        flex-wrap:wrap;
+    }
+    .card-testimonial{
+        min-height:150px;
+        width:45%;
+    }
+    .about-us-text{
+        display:flex;
+        align-items:center;
+    }
+    .about-us-image{
+        display:flex;
+        flex-direction: column;
+    }
 }
