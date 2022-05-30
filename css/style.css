@@ -68,6 +68,7 @@ ul{
     border:2px solid black;
     min-height:500px;
     text-align: center;
+    line-height: 200%;
 }
 .big-figure{
     width:80%;
@@ -81,7 +82,34 @@ ul{
     margin:0 5%;
     background-color:lightgreen;
     min-height:200px;
+    line-height: 200%;
 }
-.border-rad-20{
+.border-rad-25{
     border-radius:25%;
+}
+.border-rad-50{
+    border-radius:50%;
+}
+.header-testimonial{
+    text-align: center;
+    line-height: 200%;
+    margin:20px 10%;
+}
+#testimonial-presentation{
+    margin:30px 0;
+}
+.storyteller{
+    min-height:200px;
+    width:80%;
+    margin:0 auto;
+    border:2 px solid red;
+    text-align:center;
+}
+.testimonial-image{
+    min-height:120px;
+    border:1px solid green;
+}
+.name-blockquote, blockquote{
+    margin:20px 0;
+    color:slateblue;
 }
