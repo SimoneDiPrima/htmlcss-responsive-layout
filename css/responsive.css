@@ -54,4 +54,13 @@
     .image-section-inside-bottom{
         margin:20px 0;
     }
-}
+    .fa-bars{
+        display:none;
+    }
+    .burger-menu{
+        display:flex;
+        flex-direction:row;
+        margin-right:30px;
+        border:2px solid yellow;
+    }
+    }

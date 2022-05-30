@@ -25,10 +25,10 @@ ul{
     list-style-type: none;
 }
 .burger-menu{
-    display:flex;
-    flex-direction:row;
+    display:none;
+}
+.fa-bars{
     margin-right:30px;
-    border:2px solid yellow;
 }
 .logo{
     margin-left:50px;
