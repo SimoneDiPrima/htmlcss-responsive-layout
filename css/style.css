@@ -5,9 +5,12 @@
 }
 body{
     padding-top:100px;
-}
-.first-main-row .container{
     width:100%;
+    overflow-x: hidden;
+    margin:0 auto;
+}
+.container{
+   width:90%;
     margin:0 auto;
 }
 .navbar{
@@ -34,6 +37,11 @@ ul{
 }
 .burger-menu{
     display:none;
+    padding:10px;
+}
+.burger-menu-list{
+    margin-left:5px;
+    margin-right:5px;
 }
 .fa-bars{
     margin-right:30px;
@@ -53,7 +61,12 @@ ul{
     margin:0 auto;
 }
 #start-item img{
-  width:80%;}
+  max-width:100%;}
+.dflex-double{
+    border-radius:5%;
+    background-color: aquamarine;
+    max-width:100%;
+}
 
 .start-small-first{
     margin-top:10px;
@@ -71,25 +84,21 @@ ul{
 .image-section-second{
     width:100%;
     background-color: aqua;
-    border:2px solid black;
     text-align: center;
     line-height: 100%;
+    padding:20px;
+    margin-top:10px;
 }
 .big-figure{
-    width:80%;
-    border:1px solid white;
+    width:100%;
     margin:20px auto;
-    background-color: blueviolet;
 }
 .big-figure img{
     width:50%;
 }
 .image-section-inside-bottom{
-    border:2px solid black;
-    margin:0 5%;
+    margin:20px 5%;
     background-color:lightgreen;
-    min-height:200px;
-    line-height: 200%;
 }
 .border-rad-25{
     border-radius:25%;
@@ -113,6 +122,7 @@ ul{
     flex-direction:column;
     align-items: center;
     background-color: aquamarine;
+    border-radius:10px;
 }
 .testimonial-image{width:100%;
 margin-right:50px;
@@ -159,11 +169,11 @@ margin-right:50px;
     margin:20px auto;
     border:1 px solid black;
 }
-#owner-image{
-    width:50%;
-    height:50%;
-    margin-top:20px;
-    border:1px solid green;
+.owner-image{
+    width:100%;
+    min-height:200px;
+    margin:20px auto;
+    border-radius: 50%;
 }
 .advertise-section{
     width:100%;
@@ -185,7 +195,7 @@ margin-right:50px;
     min-height:200px;
 }
 .colo-footer{
-    width:60%;
+    width:100vw;
     margin:0 auto;
     text-align: center;
 }
