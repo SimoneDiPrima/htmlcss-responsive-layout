@@ -11,14 +11,12 @@
 
     }
     .dflex-double{
-        width:calc(90% / 3 * 2 + 20px );
-        
+        width:calc(90% / 3 * 2 + 20px ); 
     }
     .testimonial-image{
         display:flex;
         align-self:center;
         width:20%;
-        float:left;
         margin-right:10px;
     }
     #testimonial-title{
@@ -29,8 +27,7 @@
         flex-wrap:wrap;
     }
     .card-testimonial{
-        min-height:150px;
-        width:45%;
+        width:40%;
     }
     .about-us-text{
         display:flex;
@@ -61,7 +58,6 @@
     .burger-menu{
         display:flex;
         flex-direction:row;
-        margin-right:30px;
         border:2px solid yellow;
     }
     }

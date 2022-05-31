@@ -50,9 +50,10 @@ ul{
     text-align:center;
     background-color: aquamarine;
     border-radius:5%;
+    margin:0 auto;
 }
 #start-item img{
-  width:60%}
+  width:80%;}
 
 .start-small-first{
     margin-top:10px;
@@ -72,14 +73,16 @@ ul{
     background-color: aqua;
     border:2px solid black;
     text-align: center;
-    line-height: 200%;
+    line-height: 100%;
 }
 .big-figure{
     width:80%;
-    min-height:300px;
     border:1px solid white;
     margin:20px auto;
     background-color: blueviolet;
+}
+.big-figure img{
+    width:50%;
 }
 .image-section-inside-bottom{
     border:2px solid black;
@@ -103,19 +106,24 @@ ul{
     margin:30px 0;
 }
 .storyteller{
-    min-height:200px;
-    width:80%;
+    width:100%;
     margin:20px auto;
-    border:2 px solid red;
-    text-align:center;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    background-color: aquamarine;
 }
-.testimonial-image{
-    min-height:120px;
-    border:1px solid green;
+.testimonial-image{width:100%;
+margin-right:50px;
 }
-.name-blockquote, blockquote{
-    margin:20px 0;
-    color:slateblue;
+.comment{
+    width:60%;
+}
+.testimonial-image img{
+    border-radius:50%;
+    width:100%;
+    padding:10px;
 }
 .benefit-section-card{
     background-color: slateblue;
@@ -123,9 +131,11 @@ ul{
     margin:20px auto;
     text-align:center;
     padding:20px 0;
+    display:block;
 }
+
 .card-testimonial{
-    width:80%;
+    width:90%;
     margin:40px auto;
     padding:20px;
     border:1px solid red;
