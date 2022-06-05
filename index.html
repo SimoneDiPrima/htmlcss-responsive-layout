@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Simone Di Prima">
     <script src="https://kit.fontawesome.com/77b4cc17b1.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <title>Layout responsive</title>
@@ -15,24 +16,32 @@
         <header class="header container">
         <div class="navbar">
             <div class="logo"><img src="./img/logo.png" alt=""></div>
-            <div>
+            <div class="navbar-burger-menu">
                 <i class="fa-solid fa-bars"></i>
                 <ul  class="burger-menu">
-                    <li class="burger-menu-list">menu list</li>
-                    <li class="burger-menu-list">menu list</li>
-                    <li class="burger-menu-list">menu list</li>
-                    <li class="burger-menu-list">menu list</li>
-                    <button>inizia</button>
+                    <li class="burger-menu-list">Planning</li>
+                    <li class="burger-menu-list">Testimonials</li>
+                    <li class="burger-menu-list">Features</li>
+                    <li class="burger-menu-list">About us</li>
                 </ul>
+                <button class="header-button">Get started</button>
             </div>
         </div>
         </header>
         <main>
             <section class="first-section">
-                <div class="container">
+                <div class="primera">
                     <div class="dflex-double">
-                        <h1 class="steelblue-color">Get a demo application</h1>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum tempore officiis dolorem dolorum rem ipsam debitis ex voluptate eaque fuga iure eius aperiam delectus, itaque voluptatum, nesciunt perferendis. Quae, perspiciatis!</p>
+                        <div class="phone-textimage">
+                            <h1 class="phone-header">Get a demo application</h1>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum tempore officiis dolorem dolorum rem ipsam debitis ex voluptate eaque fuga iure eius aperiam delectus, itaque voluptatum, nesciunt perferendis. Quae, perspiciatis!</p>
+                            <button class="phone-text-button">
+                                <a href="#">
+                                    <i class="fa-brands fa-apple"></i>
+                                    <strong>  App store</strong>
+                                </a>
+                            </button>
+                        </div>
                         <figure id="start-item">
                             <img src="./img/phone.png" alt="">
                         </figure>
@@ -75,15 +84,15 @@
                             <figure class="big-figure">
                                 <img class="border-rad-25" src="./img/planning1.png" alt="">
                             </figure>
-                            <h2>Clean code</h2>
-                            <p>lorem</p>
+                            <h2>Strategic Planning</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, nobis repellat ad qui fugit facere non, quod mollitia laudantium alias tempora in ipsam culpa blanditiis? Hic voluptas consectetur sint voluptatibus.</p>
                         </div>
                         <div class="image-section-inside-bottom border-rad-25">
                             <figure class="big-figure">
                                 <img src="./img/planning2.png" alt="">
                             </figure>
-                            <h2>Clean code</h2>
-                            <p>lorem</p>
+                            <h2>App Development</h2>
+                            <p>Develop an on-demand app for you delivery business to reach your targeted customers without any interruption</p>
                             <a href=""><i class="fa-solid fa-arrow-down"></i></a>
                         </div>
                     </div>
@@ -93,28 +102,28 @@
                     <div class="header-testimonial">
                         <h5>testimonials</h5>
                         <h1>we are committed expert partner</h1>
-                        <p id="testimonial-presentation">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis officiis recusandae sed. Est blanditiis quod cumque tenetur quisquam dolor voluptatum a odio? Sint quo animi, nostrum accusantium placeat provident.
+                        <p id="testimonial-presentation"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus perspiciatis officiis recusandae sed. Est blanditiis quod cumque tenetur quisquam dolor voluptatum a odio? Sint quo animi, nostrum accusantium placeat provident.
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui minus aut illo perspiciatis repellat aliquid. Veniam recusandae natus tenetur eum laborum. Reprehenderit veritatis suscipit dolorem architecto pariatur molestiae in veniam.
                         </p>
                     </div>
                     <div class="storyteller">
                         <figure class="testimonial-image border-rad-50"><img src="./img/testimonial1.jpg" alt=""></figure>
                         <blockquote class="comment">
-                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit. labore consequuntur maiores iure explicabo, consequatur quasi ratione alias nemo tempore dolorum?"<br>
+                            <i class="fa-solid fa-quote-left"></i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. labore consequuntur maiores iure explicabo, consequatur quasi ratione alias nemo tempore dolorum?  <i class="fa-solid fa-quote-right"></i><br>
                         <span> NAT REYNOLDS</span>
                         </blockquote>
                     </div>
                     <div class="storyteller">
                         <figure class="testimonial-image border-rad-50 more-width"><img src="./img/testimonial2.jpg" alt=""></figure>
                         <blockquote class="comment">
-                        "Lorem ipsum dolor sit amet consectetur, adipisicing elit.nemo tempore dolorum?"<br>
+                            <i class="fa-solid fa-quote-left"></i>  Lorem ipsum dolor sit amet consectetur, adipisicing elit.nemo tempore dolorum?  <i class="fa-solid fa-quote-right"></i><br>
                         <span class="name-blockquote">CELIA ALMEDA</span>
                         </blockquote>
                     </div>
                     <div class="storyteller">
                         <figure class="testimonial-image border-rad-50"><img src="./img/testimonial3.jpg" id="more-width-f" alt=""></figure>
                         <blockquote class="comment">
-                        "Lorem eligendi quod iusto nihil cupiditate dolores labore consequuntur maiores iure explicabo, consequatur quasi ratione alias nemo tempore dolorum?"<br>
+                            <i class="fa-solid fa-quote-left"></i>  Lorem eligendi quod iusto nihil cupiditate dolores labore consequuntur maiores iure explicabo, consequatur quasi ratione alias nemo tempore dolorum?  <i class="fa-solid fa-quote-right"></i><br>
                         <span>BOB ROBERTS</span>
                         </blockquote>
                     </div>
@@ -126,32 +135,21 @@
                             <h1 id="testimonial-title">benefits of working with us</h1>
                             <div class="card-testimonial">
                                 <div class="card-text">
-                                <h2>01</h2>
-                                <h3>creative team</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <button class="testimonial-button">more</button>
+                                    <div class="cards-title">
+                                        <h2>01</h2>
+                                        <h3>High Quality</h3>
+                                    </div>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
+                                    <button class="testimonial-button">more</button>
                                 </div>
                             </div>
                             <div class="card-testimonial">
                             <div class="card-text">
-                                <h2>02</h2>
-                                <h3>creative team</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <button class="testimonial-button">more</button>
-                            </div>
-                            </div>
-                            <div class="card-testimonial">
-                            <div class="card-text">
-                                <h2>03</h2>
-                                <h3>creative team</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
+                                <div class="cards-title">
+                                    <h2>02</h2>
+                                    <h3>Creative team</h3>
+                                </div>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
                                 <button class="testimonial-button">more</button>
@@ -159,10 +157,21 @@
                             </div>
                             <div class="card-testimonial">
                             <div class="card-text">
-                                <h2>04</h2>
-                                <h3>creative team</h3>
+                                <div class="cards-title">
+                                    <h2>03</h2>
+                                    <h3>Amazing results</h3>
+                                </div>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
+                                <button class="testimonial-button">more</button>
+                            </div>
+                            </div>
+                            <div class="card-testimonial">
+                            <div class="card-text">
+                                <div class="cards-title">
+                                    <h2>04</h2>
+                                    <h3>Best Pricing</h3>
+                                </div>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
                                 <button class="testimonial-button">more</button>
@@ -170,10 +179,10 @@
                             </div>    
                             <div class="card-testimonial">
                             <div class="card-text">
-                                <h2>05</h2>
-                                <h3>creative team</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
+                                <div class="cards-title">
+                                    <h2>05</h2>
+                                    <h3>Innovations</h3>
+                                </div>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
                                 <button class="testimonial-button">more</button>
@@ -181,10 +190,10 @@
                             </div> 
                             <div class="card-testimonial">
                             <div class="card-text">
-                                <h2>06</h2>
-                                <h3>creative team</h3>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
-                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
+                                <div class="cards-title">
+                                    <h2>06</h2>
+                                    <h3>24/7 Support</h3>
+                                </div>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
                                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt, facere? Quam alias, est sequi modi id culpa dolore placeat in molestias, vero molestiae quasi nobis qui natus eos aut iusto.</p>
                                 <button class="testimonial-button">more</button>
@@ -199,12 +208,10 @@
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam illo error quaerat inventore reiciendis quis dicta ullam, commodi consequuntur quidem autem. Quae aspernatur temporibus quas dolor natus explicabo unde quis!
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit distinctio similique repudiandae natus, veritatis repellendus delectus eaque voluptates mollitia asperiores quia aliquid minus unde nisi vitae necessitatibus cupiditate neque tempore?
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sapiente explicabo ipsa nesciunt possimus nobis saepe a. Exercitationem dolor quae rerum eligendi id optio eius error quam iste esse! Blanditiis!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sapiente explicabo ipsa nesciunt possimus nobis saepe a. Exercitationem dolor quae rerum eligendi id optio eius error quam iste esse! Blanditiis!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias sapiente explicabo ipsa nesciunt possimus nobis saepe a. Exercitationem dolor quae rerum eligendi id optio eius error quam iste esse! Blanditiis!
                         </p>
                     </div> 
                     <div class="about-us-image">
-                        <figure><img class="owner-image"src="./img/about.jpg" alt=""></figure>
+                        <figure><img class="owner-image" src="./img/about.jpg" alt=""></figure>
                         <blockquote>i help companies tincindunt nulla facilisi cras fermentum odio</blockquote>
                         <button class="border-rad-25">Find me on linkedin</button>
                     </div>
@@ -217,18 +224,17 @@
                         <h1>It's Free!</h1>
                         <p id="advertise-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati ratione nobis dolores ab commodi aliquid possimus mollitia quaerat ipsam excepturi earum architecto, blanditiis, voluptatibus et fugit quis. Doloribus, adipisci magnam.</p>
                         <button>Get Started</button>
-                    </div>
-                </div>      
-              </section>
-        </div> 
-    </main>
-    <footer>
-    <div class="footer-finale">
+                    </div>     
+                </section> 
+        </main>
+        <footer>
+            <div class="footer-finale">
                 <div class="colo-footer">
                     <p class="text-footer">Lorem ipsum dolor sit  necessitatibus?</p>
-                    <p>Adipisci necessitatibus aliquam facere. Cumque, veritatis.</p>
+                    <p class="text-footer">Adipisci necessitatibus aliquam facere. Cumque, veritatis.</p>
                 </div>
-    </div>
-    </footer>
+            </div>
+        </footer>
+   </div> 
 </body>
 </html>
